@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamp Login Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-card">
+    <header>
+      <h1>Lamp Login</h1>
+      <p>Animation</p>
+    </header>
+
+    <section class="scene" aria-label="Lampu animasi">
+      <div class="lamp" id="lamp">
+        <div class="shade"></div>
+        <div class="stem"></div>
+        <div class="base"></div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <section class="form-area">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Masukkan username" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Masukkan password" required>
+
+        <button type="submit">Masuk</button>
+        <p class="message" id="message" role="status"></p>
+      </form>
+    </section>
+    <footer>Demo sederhana HTML, CSS, dan JavaScript</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
